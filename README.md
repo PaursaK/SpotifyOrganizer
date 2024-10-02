@@ -2,7 +2,7 @@
 ### Spotify Developer
 - https://developer.spotify.com/documentation/web-api/reference/create-playlist
 
-## Medium About __Spotipy__
+### Medium About __Spotipy__
 - https://medium.com/@leighmurray_10641/creating-a-spotify-playlist-with-python-7ff7ee94f612
 
 ## To Do
