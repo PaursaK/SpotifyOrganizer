@@ -9,9 +9,9 @@ from sklearn.preprocessing import StandardScaler
 
 #user authetication
 auth_manager = SpotifyOAuth(
-    client_id="4d75e005236345d7b7735c7d92a35f71",
-    client_secret="66ae8fc0a84845bfaf94a74af0a5299d",
-    redirect_uri="http://localhost:3000",
+    client_id="YOUR_CLIENT_ID",
+    client_secret="YOUR_CLIENT_SECRET",
+    redirect_uri="use whatever here",
     scope="user-library-read playlist-modify-public"
 )
 

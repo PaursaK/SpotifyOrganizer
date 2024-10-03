@@ -9,31 +9,14 @@ class Song:
         self.uri = uri
         self.album = album
         self.artist = artist
-        self.lyrics = None
         self.genres = self.artist.genres
-        self.mood = None
         self.audioFeatures = None
         self.cluster = None
 
-    def setLyrics(self, lyrics: str):
-        self.lyrics = lyrics
-
-    def setMood(self, mood: list):
-        self.mood = mood
 
     def setSongClusterID(self, clusterID):
         self.cluster = clusterID
 
-    def to_dict(self):
-        '''Convert the Song object to a dictionary.'''
-        return {
-            "name": self.name,
-            "id": self.id,
-            "album": self.album.title,
-            "artist": self.artist.name,
-            "mood": self.mood,
-            "genre": self.genres
-            }
 
     def setAudioFeatures(self, audioFeatures):
         self.audioFeatures = audioFeatures
