@@ -12,9 +12,7 @@ This project organizes your saved Spotify tracks into distinct playlists based o
 - [Authentication Setup](#authentication-setup)
 - [Usage](#usage)
 - [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
-
+- [Improvements](#improvements)
 ## Installation
 
 1. Clone the repository:
@@ -79,3 +77,20 @@ You can modify the number of clusters (playlists) created by changing the value 
 
 ```python
 n_clusters = 10  # Adjust the number of clusters here
+```
+
+## Improvements
+
+To enhance the accuracy of curated playlists in this project, consider the following strategies:
+
+1. **Increase the Number of Clusters:** 
+   - Experiment with higher values of `n_clusters` to capture finer distinctions among genres.
+
+2. **Feature Selection:**
+   - Include additional audio features that correlate with genre, such as tempo, danceability, energy, acousticness, loudness, and valence.
+   - Integrate genre metadata if available.
+
+3. **Use Genre Data for Clustering:**
+   - Incorporate genre labels into your clustering approach through one-hot encoding or weighted clustering.
+
+By implementing these strategies, you can may be able to improve the genre accuracy of the curated playlists based similar attributes.
