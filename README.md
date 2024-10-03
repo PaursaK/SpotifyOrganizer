@@ -20,13 +20,13 @@ This project organizes your saved Spotify tracks into distinct playlists based o
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/spotify-playlist-organizer.git
+    git clone https://github.com/PaursaK/SpotifyOrganizer.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd spotify-playlist-organizer
+    cd SpotifyOrganizer
     ```
 
 3. Install the required dependencies:
