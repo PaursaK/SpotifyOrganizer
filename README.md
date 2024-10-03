@@ -84,7 +84,7 @@ n_clusters = 10  # Adjust the number of clusters here
 To enhance the accuracy of curated playlists in this project, consider the following strategies:
 
 1. **Increase the Number of Clusters:** 
-   - Experiment with higher values of `n_clusters` to capture finer distinctions among genres.
+   - Experiment with higher values of `n_clusters` to capture finer distinctions among songs.
 
 2. **Feature Selection:**
    - Include additional audio features that correlate with genre, such as tempo, danceability, energy, acousticness, loudness, and valence.
