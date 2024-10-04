@@ -93,4 +93,4 @@ To enhance the accuracy of curated playlists in this project, consider the follo
 3. **Use Genre Data for Clustering:**
    - Incorporate genre labels into your clustering approach through one-hot encoding or weighted clustering.
 
-By implementing these strategies, you may be able to improve the genre accuracy of the curated playlists based similar attributes.
+By implementing these strategies, you may be able to improve the genre accuracy of the curated playlists based on similar attributes.
